@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="1.js"></script>
+    <script src="2.js"></script>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div class="input">
+        <form id="form">
+          <textarea id="text1"></textarea>
+          <textarea id="text2"></textarea>
+        </form>
+      </div>
+      <button id="start" onclick="test(),caesar()">CONVERT</button>
+    </div>
+    <div id="charts">
+      <div id="aChart"></div>
+      <div id="a2Chart"></div>
+      <div id="abChart"></div>
+      <div id="abcChart"></div>
+      <div id="abcChart"></div>
+    </div>
+    <div id="inf">
+      <div id="stat">
+        <p>Number of symbols:</p>
+        <p id="sum">0</p>
+        <p>| Ceasar step:</p>
+        <p id="step">0</p>
+      </div>
+      <div id="alpha">
+        <div id="alpha-up">
+          <p id="in"></p>
+        </div>
+        <div id="alpha-down">
+          <p id="out"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
